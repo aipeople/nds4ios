@@ -27,6 +27,7 @@
     #define ARM_THREADEDINTERPRETER
     #define _MAIN_H
     #define ARM_CJIT
+    #define HAVE_LIBZ 1
 
     #include <mach/mach.h>
     #include <mach/mach_time.h>
