@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		98D97F8D19F956AA007EF9D7 /* saves.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE34A0EE173F722C00C51EA1 /* saves.cpp */; };
+		98F9BDA619F98B0C007338B4 /* images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98F9BDA519F98B0C007338B4 /* images.xcassets */; };
 		CE2EE5EE173F663B00786468 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2EE5EC173F663B00786468 /* main.m */; };
 		CE2EE5FD173F66E300786468 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2EE5F6173F66E300786468 /* AppDelegate.m */; };
 		CE2EE5FE173F66E300786468 /* emu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE2EE5F7173F66E300786468 /* emu.cpp */; };
@@ -110,8 +111,6 @@
 		CEB43C42173FCA3F00055F91 /* GLProgram.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB43C41173FCA3F00055F91 /* GLProgram.m */; };
 		CEB43C45173FD25A00055F91 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEB43C43173FD25900055F91 /* GLKit.framework */; };
 		CEB43C46173FD25A00055F91 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEB43C44173FD25900055F91 /* OpenGLES.framework */; };
-		D326847E17497DBC000D4ED6 /* nds4ios.png in Resources */ = {isa = PBXBuildFile; fileRef = D326847C17497DBC000D4ED6 /* nds4ios.png */; };
-		D326847F17497DBC000D4ED6 /* nds4ios@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D326847D17497DBC000D4ED6 /* nds4ios@2x.png */; };
 		D38CBC971745CEC60074C554 /* MMDrawerBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = D38CBC901745CEC60074C554 /* MMDrawerBarButtonItem.m */; };
 		D38CBC981745CEC60074C554 /* MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = D38CBC921745CEC60074C554 /* MMDrawerController.m */; };
 		D38CBC991745CEC60074C554 /* MMDrawerVisualState.m in Sources */ = {isa = PBXBuildFile; fileRef = D38CBC941745CEC60074C554 /* MMDrawerVisualState.m */; };
@@ -123,6 +122,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		98F9BDA519F98B0C007338B4 /* images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = images.xcassets; sourceTree = "<group>"; };
 		CE2EE5EA173F661D00786468 /* nds4ios-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "nds4ios-Info.plist"; sourceTree = SOURCE_ROOT; };
 		CE2EE5EC173F663B00786468 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Classes/main.m; sourceTree = SOURCE_ROOT; };
 		CE2EE5ED173F663B00786468 /* nds4ios-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "nds4ios-Prefix.pch"; path = "Classes/nds4ios-Prefix.pch"; sourceTree = SOURCE_ROOT; };
@@ -310,8 +310,6 @@
 		CEB43C43173FD25900055F91 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
 		CEB43C44173FD25900055F91 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		CEC742F916776248006D193E /* nds4ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nds4ios.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D326847C17497DBC000D4ED6 /* nds4ios.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nds4ios.png; sourceTree = "<group>"; };
-		D326847D17497DBC000D4ED6 /* nds4ios@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nds4ios@2x.png"; sourceTree = "<group>"; };
 		D38CBC8F1745CEC60074C554 /* MMDrawerBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerBarButtonItem.h; sourceTree = "<group>"; };
 		D38CBC901745CEC60074C554 /* MMDrawerBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerBarButtonItem.m; sourceTree = "<group>"; };
 		D38CBC911745CEC60074C554 /* MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerController.h; sourceTree = "<group>"; };
@@ -346,6 +344,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		98F9BDA419F98AED007338B4 /* Image assets */ = {
+			isa = PBXGroup;
+			children = (
+				98F9BDA519F98B0C007338B4 /* images.xcassets */,
+			);
+			name = "Image assets";
+			sourceTree = "<group>";
+		};
 		CE2EE5F4173F66D100786468 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
@@ -354,8 +360,6 @@
 				CE34A12F173F798200C51EA1 /* matrix_impl.c */,
 				CE34A130173F798200C51EA1 /* matrix_impl.h */,
 				CE34A128173F769200C51EA1 /* nullJit.h */,
-				CE2EE5F5173F66E300786468 /* AppDelegate.h */,
-				CE2EE5F6173F66E300786468 /* AppDelegate.m */,
 				CE2EE5F7173F66E300786468 /* emu.cpp */,
 				CE2EE5F8173F66E300786468 /* emu.h */,
 				D338B30117470D4000932C39 /* Roms List */,
@@ -610,7 +614,9 @@
 		CEC742EE16776248006D193E = {
 			isa = PBXGroup;
 			children = (
-				D326847B17497DB1000D4ED6 /* UI */,
+				CE2EE5F5173F66E300786468 /* AppDelegate.h */,
+				CE2EE5F6173F66E300786468 /* AppDelegate.m */,
+				98F9BDA419F98AED007338B4 /* Image assets */,
 				CE2EE60C173F6C1E00786468 /* nds4droid-code */,
 				CE2EE5F4173F66D100786468 /* Classes */,
 				CEC7430416776248006D193E /* Supporting Files */,
@@ -636,15 +642,6 @@
 			);
 			name = "Supporting Files";
 			path = nds4ios;
-			sourceTree = "<group>";
-		};
-		D326847B17497DB1000D4ED6 /* UI */ = {
-			isa = PBXGroup;
-			children = (
-				D326847C17497DBC000D4ED6 /* nds4ios.png */,
-				D326847D17497DBC000D4ED6 /* nds4ios@2x.png */,
-			);
-			name = UI;
 			sourceTree = "<group>";
 		};
 		D338B2FD17470D1B00932C39 /* Side Drawer */ = {
@@ -771,8 +768,7 @@
 			files = (
 				D38CBCAF1745CF9C0074C554 /* SettingsViewController.xib in Resources */,
 				D38CBCB11745CF9C0074C554 /* SideViewController.xib in Resources */,
-				D326847E17497DBC000D4ED6 /* nds4ios.png in Resources */,
-				D326847F17497DBC000D4ED6 /* nds4ios@2x.png in Resources */,
+				98F9BDA619F98B0C007338B4 /* images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -942,6 +938,8 @@
 		CEC7431E16776248006D193E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
 				CLANG_CXX_LIBRARY = "libstdc++";
 				CLANG_ENABLE_OBJC_ARC = YES;
@@ -983,6 +981,8 @@
 		CEC7431F16776248006D193E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
 				CLANG_CXX_LIBRARY = "libstdc++";
 				CLANG_ENABLE_OBJC_ARC = YES;
